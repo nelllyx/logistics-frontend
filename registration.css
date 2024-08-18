@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tahoma;
+    color: #444;
+
+    letter-spacing: 1px;
+}
+
+
+.img{
+    width: 27.39rem;
+    height: 36.51rem;
+}

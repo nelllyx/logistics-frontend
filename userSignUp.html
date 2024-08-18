@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./registration.css" rel="stylesheet">
+    <style type="text/css">
+        #color{
+            background-color:rgb(132, 163, 199)
+        }
+        a{
+            text-decoration: none;
+        }
+        .nav{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid" id="color">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 mt-5">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title text-primary">Create your Anon account</h4>
+                </div>
+            </div>
+            <form method="post" action="">
+                <div class="form-group mt-3">
+                    <input type="name" name="firstname" placeholder="Firstname" class="form-control" id="firstname" required="true" >
+                </div>
+                <div class="form-group mt-3">
+                    <input type="name" name="lastname" placeholder="Lastname" class="form-control" id="lastname" required="true" >
+                </div>
+                <div class="form-group mt-3">
+                    <input type="text" name="username" placeholder="Username" class="form-control" id="username" required="true" >
+                </div>
+                <div class="form-group mt-3">
+                    <input type="email" name="email" placeholder="Email address" class="form-control" id="email" required="true">
+                </div>
+                <div class="mt-4">
+                    <input type="password" name="password" placeholder="Password" class="form-control" id="pswd" required="true">
+                </div>
+                <div class="form-group mt-3">
+                    <input type="phone" name="number" placeholder="Phone Number" class="form-control" id="number" required="true" >
+                </div>
+                <div class="form-group mt-3">
+                    <input type="add" name="address" placeholder="Address" class="form-control" id="address" required="true" >
+                </div>
+                <div class="form-group mt-2">
+                    <button type="submit" class="btn btn-primary form-control" id="check" >Get started</button>
+                </div>
+                <p class="lead mt-4">By clicking get started, I acknowledge that I have
+                    read and do hereby accept the <a href="">Terms and Conditions</a>
+                    in the  Terms of Use,
+                    and <a href="">Privacy Policy</a>.</p>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

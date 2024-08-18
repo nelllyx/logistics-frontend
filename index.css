@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navBar{
+    width: 65vw;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    height: 50px;
+}
+
+
+.hero-section{
+
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px; /* Adds space inside the section */
+        <!--text-align: center; /* Center align text */-->
+}
+.join-button{
+    border-radius: 15px;
+    height: 50px;
+    width: 110px;
+    background-color: #2c2d5b;
+
+
+}
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;;
+}
+
+
+#text-orange {
+    color: #F67366; /* Bright Orange */
+}
+
+.line {
+    height: 2px; /* Height of the line */
+    width: 8%; /* Full width */
+    background-color: #F67366; /* Color of the line */
+    margin: 10px 0; /* Space above and below the line */
+}
+
+.h5-class{
+    color: #2c2d5b;
+}
+#second-section{
+    background-color: #f8fafb;
+}
+
+
+#footer{
+background-color: #2c2d5b;;
+}
+
+
+
+
+
+
+/*#centered-div {*/
+/*    height: 2px; !* Height of the line *!*/
+/*    width: 8%; !* Full width *!*/
+/*    background-color: #F67366; !* Color of the line *!*/
+/*    margin: 10px 0; !* Space above and below the line *!*/
+/*    color: white; !* Text color *!*/
+/*    display: flex; !* Enable flexbox *!*/
+/*    align-items: center; !* Center vertically *!*/
+/*    justify-content: center; !* Center horizontally *!*/
+
+/*}*/

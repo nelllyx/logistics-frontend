@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Package form</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #img{
+            height: 650px;;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <section class="vh-100">
+            <div class="container  h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col col-xl-10">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                                    <div class="card-body p-4 p-lg-5 text-black">
+
+                                        <form class="" id="package-form">
+
+                                            <div class="d-flex align-items-center mb-3 pb-1">
+                                                <span class="h1 fw-bold mb-0 text-success">DadaBoy Logistics</span>
+                                            </div>
+
+                                            <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Send a package</h5>
+
+                                            <div class="form-outline mb-2">
+                                                <label class="form-label" for="username">Username</label>
+                                                <input type="text" id="username" class="form-control form-control-lg username" />
+
+                                            </div>
+
+                                            <div class="form-outline mb-2">
+                                                <label class="form-label" for="address">Pickup Address</label>
+                                                <input type="text" id="address" class="form-control form-control-lg" />
+
+                                            </div>
+
+                                            <div class="form-outline mb-2">
+                                                <label class="form-label" for="deliver">Delivery Address</label>
+                                                <input type="text" id="deliver" class="form-control form-control-lg" />
+
+                                            </div>
+
+                                            <div class="form-outline mb-2">
+                                                <label class="form-label" for="package">Package name</label>
+                                                <input type="text" id="package" class="form-control form-control-lg" />
+
+                                            </div>
+
+                                            <div class="form-outline mb-2">
+                                                <label class="form-label" for="name">Recipient name</label>
+                                                <input type="text" id="name" class="form-control form-control-lg" />
+
+                                            </div>
+
+                                            <div class="form-outline mb-2">
+                                                <label class="form-label" for="number">Recipient phone</label>
+                                                <input type="text" id="number" class="form-control form-control-lg" />
+
+                                            </div>
+
+                                            <div class="form-outline mb-3">
+                                                <select class="form-select" aria-label="Default select example" id="option">
+                                                    <option selected>Select Delivery LGA </option>
+                                                    <option value="mainland">Mainland</option>
+                                                    <option value="island">Island</option>
+                                                </select>
+
+                                            </div>
+
+
+                                            <div class="pt-2 mb-4">
+                                                <button class="btn btn-dark btn-lg btn-block" type="submit" id="btn">Save Package</button>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-5 d-none d-md-block">
+                                    <img
+                                            src="./liza.jpg"
+                                            alt="login form"
+                                            class="img-fluid"
+                                            id="img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+</div>
+<script src="./package.js">
+</script>
+
+<script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
