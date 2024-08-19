@@ -20,7 +20,7 @@ form.addEventListener("submit", async (e)=>{
     console.log(location)
 
     try{
-        const data = await fetch("http://localhost:8081/user/send-package",{
+        const data = await fetch("http://localhost:8082/user/send-package",{
             method: "POST",
             headers:{
                 "Content-Type": "application/json"

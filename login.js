@@ -19,7 +19,7 @@ form.addEventListener("submit", async (e)=>{
     console.log(username)
     console.log(pswd)
 try{
-    const data = await fetch("http://localhost:8081/user/customer-login",{
+    const data = await fetch("http://localhost:8082/user/customer-login",{
         method: "POST",
         headers:{
             "Content-Type": "application/json"
